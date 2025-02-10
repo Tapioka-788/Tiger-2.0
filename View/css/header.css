@@ -1,0 +1,30 @@
+@media screen and (max-width: 425px) and (max-height: 882px) {
+    header {
+        background-image: url('./../../Model/ponte.jpg');
+        background-size: cover;
+        background-position: end;
+        background-repeat: no-repeat;
+
+        width: 425px;
+        height: 20vh;
+
+        display: flex;
+        justify-content: center;
+
+        z-index: 10;
+    }
+
+    #gato {
+        background-image: url('./../../Model/tigre.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        width: 25vw;
+        height: 25vw;
+
+        margin-top: 9vh;
+        
+        z-index: 11;
+    }
+}

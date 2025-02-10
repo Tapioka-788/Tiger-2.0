@@ -1,0 +1,17 @@
+@import url(./../header.css);
+@import url(roleta_sect.css);
+
+body{
+    width: 100vw;
+    height: 100vh;
+
+    margin: 0;
+
+    overflow: hidden;
+}
+
+@media screen and (max-width: 425px) and (max-height: 882px) {
+    body{
+        overflow: hidden;
+    }
+}
