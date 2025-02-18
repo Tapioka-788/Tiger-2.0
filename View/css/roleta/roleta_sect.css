@@ -27,6 +27,23 @@
         height: 40vh ;
 
         background-color: brown;
+        overflow-y: hidden;
+
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .coluna{
+        width: 20vw;
+        height: 10vh;
+
+        border: solid white 1vh;
+    }
+
+    #coluna1{
+        width: 20vw;
+        height: 10vh;
     }
 
     #ganho{
