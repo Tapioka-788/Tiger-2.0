@@ -1,7 +1,7 @@
 @media screen and (max-width: 425px),
        screen and (max-height: 882px) {
     section {
-        width: 425px;
+        width: 100vw;
         height: 80vh;
     }
 
