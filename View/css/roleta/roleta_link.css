@@ -8,12 +8,12 @@ body{
 
     margin: 0;
 
-    /* overflow: hidden; */
+    overflow-x: hidden;
 }
 
 @media screen and (max-width: 425px),
        screen and (max-height: 882px) {
     body{
-        /* overflow: hidden; */
+        overflow-x: hidden;
     }
 }
