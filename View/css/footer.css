@@ -1,15 +1,18 @@
-@media screen and (max-width: 425px) and (max-height: 882px) {
+@media screen and (max-width: 425px),
+       screen and (max-height: 882px) {
     footer {
         width: 425px;
-        height: 20vh;
+        height: 5vh;
 
         display: flex;
         justify-content: center;
 
         z-index: 10;
+        margin-bottom: 0vh;
+
+        background-color: brown;
     }
     #email{
-        background-color: brown;
         font-size: 1.25vh;
     }
 }

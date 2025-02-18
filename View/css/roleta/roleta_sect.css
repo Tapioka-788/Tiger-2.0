@@ -1,30 +1,31 @@
-@media screen and (max-width: 425px) and (max-height: 882px) {
-    section{
+@media screen and (max-width: 425px),
+       screen and (max-height: 882px) {
+    section {
         width: 425px;
         height: 80vh;
     }
 
-    #sobre{
+    #sobre {
         width: 100vw;
         height: 7.5vh;
 
         background-color: yellow;
     }
 
-    #contorno{
+    #contorno {
         display: flex;
     }
 
-    .borda{
+    .borda {
         width: 10vw;
         height: 40vh;
 
         background-color: green;
     }
 
-    #roleta_box{
-        width: 80vw ;
-        height: 40vh ;
+    #roleta_box {
+        width: 80vw;
+        height: 40vh;
 
         background-color: brown;
         overflow-y: hidden;
@@ -34,19 +35,19 @@
         align-items: center;
     }
 
-    .coluna{
+    .coluna {
         width: 20vw;
         height: 10vh;
 
         border: solid white 1vh;
     }
 
-    #coluna1{
+    #coluna1 {
         width: 20vw;
         height: 10vh;
     }
 
-    #ganho{
+    #ganho {
         width: 100vw;
         height: 7.5vh;
 
@@ -56,7 +57,7 @@
         background-color: blue;
     }
 
-    #valores{
+    #valores {
         width: 100vw;
         height: 7.5vh;
 
@@ -66,7 +67,7 @@
         background-color: orange;
     }
 
-    .valor{
+    .valor {
         width: 20vw;
         height: 5vh;
 
@@ -75,17 +76,17 @@
         margin-top: 1.25vh;
     }
 
-    #funcoes{
+    #funcoes {
         width: 100vw;
         height: 17.5vh;
         background-color: cyan;
-        
+
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
-    #giro{
+    #giro {
         width: 20vw;
         height: 20vw;
 
